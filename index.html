@@ -7,10 +7,15 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <header>
-    <h1>Cynthia Mugo</h1>
-    <p>Full Stack Developer | HTML • CSS • JavaScript • Git</p>
-  </header>
+    <header class="header">
+        <div class="header-image">
+        <img src="https://img.freepik.com/free-photo/black-businesswoman-smiling_74855-1086.jpg?uid=R195694176&ga=GA1.1.1131489315.1748438663&semt=ais_items_boosted&w=740" alt="Cynthia Mugo's" class="placeholder">
+        </div>
+        <div class="header-text">
+        <h1>Hello, I'm Cynthia Mugo</h1>
+        <p>Full Stack Developer | Tech enthusiast</p>
+        </div>
+    </header>
 
   <nav>
     <a href="#about">About</a>
@@ -27,19 +32,33 @@
     </p>
   </section>
 
-  <section id="projects">
+  <section id="projects" class="projects">
     <h2>Projects</h2>
-    <div class="project">
-      <h3>Wedding Website Clone</h3>
-      <p>A static wedding site inspired by Zola, built with HTML and CSS.</p>
-      <a href="https://github.com/cynthiamugo/wedding-website-builder" target="_blank">View on GitHub</a>
+    <div class="project-list">
+        <img src="./Images/Screenshot from 2025-06-02 15-29-46.png" alt="project outline">
+    <div class="project-details">
+      <h3>Book club website</h3>
+      <p>This project is a fiction lovers space world. This website allows members to: Browse and explore a curated list of 
+        fiction books, submit recommendations using a simple form and reach out to us through the contact page, built with HTML 
+        and CSS and JS.</p>
+      <a href="https://github.com/CynthiaMugo/Foundations-final" target="_blank">GitHub</a>
+    </div>
+    </div>
+
+    <div class="project-list">
+        <img src="./Images/Screenshot from 2025-06-02 15-54-48.png" alt="project outline">
+    <div class="project-details">
+      <h3>Akan Name Generator</h3>
+      <p>This project generates Akan names based on the day of the week a person was born.</p>
+      <a href="https://github.com/CynthiaMugo/akan-name-generator" target="_blank">GitHub</a>
+    </div>
     </div>
     <!-- Add more projects here -->
   </section>
 
-  <section id="skills">
+  <section id="skills" class="skills">
     <h2> My Skills</h2>
-    <ul>
+    <ul class="skills-list">
       <li>HTML & CSS</li>
       <li>JavaScript (Basics)</li>
       <li>Git & GitHub</li>
@@ -47,7 +66,7 @@
     </ul>
   </section>
 
-  <section id="contact">
+  <section id="contact" class="contact">
     <h2>Contact Me</h2>
     <p>Email: <a href="mailto:cynthiamugo25@gmail.com">cynthiamugo25@gmail.com</a></p>
     <p>GitHub: <a href="https://github.com/cynthiamugo" target="_blank">@cynthiamugo</a></p>
